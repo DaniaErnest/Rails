@@ -1,0 +1,45 @@
+ @import "bootstrap";
+
+ .navbar {
+  background-color:black !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: blue ;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#jumbo {
+    color: white;
+    margin-top: 25px;
+}
+
+#jum {
+    background-image: asset-url('bls.jpg');
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // height: 425px;
+}
+
+html,
+body {
+  background-color: lightgrey;
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
